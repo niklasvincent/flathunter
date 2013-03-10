@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>London</title>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style.css">
+    <!-- <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script> -->
+	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?libraries=places&sensor=false"></script>
+    <script src="app.js.php"></script>
+  </head>
+  <body>
+	<div id="panels">
+		<button id="btn_low" style="background: #78CC5C;" type="button">Low</button>
+		<button id="btn_medium" style="background: #FFBB00;" type="button">Medium</button>
+		<button id="btn_high" style="background: #FC2348;" type="button">High</button>
+		<button id="btn_starred" style="" type="button">Favourites</button>
+		<div id="directions-panel"></div>
+		<hr />
+		<div id="information-panel"></div>
+		<hr />
+		<textarea id="hide_reason"></textarea>
+		<br />
+		<button id="btn_hide" style="background: red;" type="button">Hide</button>
+		<button id="btn_favorite" style="background: green;" type="button">Favorite</button>
+		
+	</div>
+    <div id="map_canvas"></div>
+  </body>
+</html>
