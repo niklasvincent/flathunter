@@ -2,6 +2,8 @@
 
 Combine several RSS feeds from your favorite housing agency and browse them on a Google Map.
 
+Static demo at <http://flathunter.s3-website-us-east-1.amazonaws.com/index.html>
+
 * Icons are color coded according to your preferred rent level (see the *config-example.php* for settings).
 
 * Places of interest (using Google Places) shown around map center. Currently grocery stores and pubs are shown.
@@ -34,7 +36,7 @@ Icons by Nicolas Mollet released under Creative Commons 3.0 BY-SA <http://mapico
 
 - *CURRENCY_CACHE_FILE* Where to cache Yahoo Finance lookups
 
-- *CURRENCY_SIGN* Currency sign to put in the property maker icons
+- *CURRENCY_SIGN* Currency sign to put in the property marker icons
 
 - *MAGPIE_CACHE_DIR* Where to cache MagpieRSS (RSS library) files
 
